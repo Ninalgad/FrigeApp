@@ -1,1 +1,1 @@
-# FrigeApp
+# FringeApp
