@@ -1,0 +1,172 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+.text-space{
+    margin-top: 20px;
+}
+.bar{
+    background-color: #ccc;
+    padding: 18px 15px 0 10px;
+}
+html, body{
+    width: 100%;
+    background-size: cover;
+    background-image: url(../img/background.png);
+    overflow-x: hidden;
+    font-family: 'Futura', Arial, sans-serif;
+}
+
+.padding{
+    padding-top:73%;   
+}
+
+.button{
+    background-image:url(../img/button.png);
+    background-size:cover;
+    background-color: #b62425;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin: 5px auto;
+    font-family: 'Futura', Arial, sans-serif;
+}
+
+#sponsor{
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 1rem;
+}
+
+#homelogo{
+    width: 36%;
+    margin: 15px auto;
+}
+
+.text-space {
+  margin-top: 0px;
+}
+
+ul {
+  margin-left: 0;
+}
+    
+.margin{
+ padding: 0;   
+}
+   
+.bar {
+    background-color: #cd9334;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #FFF;
+    font-family: 'Futura', Arial, sans-serif;
+}
+
+.accordion .accordion-navigation>a, .accordion dd>a {
+    background: #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #b62425;
+    font-family: 'Futura', Arial, sans-serif;
+}
+
+.accordion .accordion-navigation.active>a, .accordion dd.active>a {
+    background: #DDD;
+}
+
+.padding1{
+    padding-top: 30px;
+}
+.padding2{
+    padding-top: 15px;
+}
+.padding3{
+    padding-top: 40px;
+}
+.padding4{
+    padding-top: 10px;
+}
+
+
+h1{
+    font-family: Futura, Arial, Sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Futura, Arial, Sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+#image{
+    -webkit-transition: all 0.5s ease-in-out;
+    -webkit-transform-origin: 447px 447px;
+}
+
+#spinner{
+    margin: 0 auto;
+    width: 894px;
+    position: relative;
+    bottom: -60px;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -447px;
+}
+
+#arrow{
+    position: relative;
+    top: -80px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.beer{
+    color: #b62425;   
+}
+
+.accordion .accordion-navigation>.content.active, .accordion dd>.content.active {
+  display: block;
+  background: none;
+}
+
+p{
+ text-decoration: none;  
+}
+
+a{
+    color: #b62425;
+}
+
+a.hover{
+    color: #b62425;   
+}

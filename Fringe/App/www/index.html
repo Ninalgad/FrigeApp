@@ -1,0 +1,2311 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <meta name="msapplication-tap-highlight" content="no" />
+    <title>Toronto | Fringe</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+     <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+        <link rel="stylesheet" href="css/foundation.min.css" />
+        <link rel="stylesheet" href="css/foundation-icons.css" />
+        <link rel="stylesheet" href="css/page-transitions.css">
+        <script src="js/vendor/modernizr.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+	    <script src="https://maps.googleapis.com/maps/api/geocode/json?address=Winnetka&quotaUser=hybrid-coyote-88715"></script>
+ 
+  </head>
+  <body>
+	  
+	  <!--restart here-->
+<!--
+page1:	home 								[0]
+page2:	performances(filter all)			[0]
+page3:	Venues								[0]
+page4:	location (map)						[0]		
+page5:	random								[0]
+	  page6: performances filter venues 	[0]
+	  page7: performances filter time		[0]
+	  page8: performances filter genre		[0]
+page10: performance 1 ARABIAN NIGHTS 		[0]
+page11:	performance 2 A QUEST OF CHARACTER	[0]
+page12:	performance 3 CLIMBING MOUNT		[0]
+page16:	performance 4 CIRQULAR PICK-UP		[0]
+page17:	performance 5 TIKVA’S ORCHESTRA		[0]+
+page9:	venue 1	Tarragon					[0]
+page14:	venue 2	Palmerston Library Theatre	[0]
+page15:	venue 3	Annex						[0]
+-->
+
+		<!--		logo		-->
+					
+							<img style="width: 100%"; src="img/logo1.png" align="middle">
+
+
+		<!--		page1	home		-->
+		<div data-effeckt-page="page-1" id="page-1">
+			<div class="page-wrap no-transitions" id="page-wrap">   
+				
+			<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Home</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>	
+			<!--content-->
+			
+			<div class="row">
+				<div class="small-12 columns">
+					<div class="add-margin">
+				
+						<ul class="small-block-grid-2 medium-block-grid-2 large-block-grid-2">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-2"><img src="img/performances.jpg" align="right"></a></li>
+							<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-4"><img src="img/Location.jpg" align="left"></a></li>
+							<br>
+							<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-5"><img src="img/Random.jpg" align="right"></a></li>
+							<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-3"><img src="img/Venues.jpg" align="left"></a></li>
+						</ul>
+				
+					</div>
+				</div>
+			</div>
+
+		
+			<div class="row">
+				<div class="small-6 columns"></div>
+				<div class="small-6 columns">
+					<ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+					  <li><a href="https://facebook.com/mobile"><img src="img/facebook.jpg" align="right"></a></li>
+					  					  <li><a href="https://twitter.com/"><img src="img/twitter.png" align="left"></a></li>
+					  <li><a href="https//pintrest.com/mobile"><img src="img/pintrest.jpg" align="right"></a></li>
+
+					</ul>
+				</div>
+			</div>
+	  </div>
+</div>  
+	  
+	
+<!--			page 2 	Performances	-->
+<div data-effeckt-page="page-2">
+	<div class="page-wrap" id="page-2">
+	<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performances</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+				
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>
+				
+            <div class="row">
+                <div class="small-12 columns">
+                       <dl class="sub-nav">
+						  
+						  <dd class="active"><a href="#">A-Z</a></dd>
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-6">Place</a></dd>
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-7">Time</a></dd>
+						   <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-8">Genre</a></dd>
+						</dl>
+                </div>
+            </div>
+		
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-10">
+						<div class="small-7 columns">
+							<h3><strong>ARABIAN NIGHTS</strong></h3>
+							<h4><em>Tarragon Main</em></h4>
+						</div>
+						<div class="small-5 columns">
+							<div class="g-box-dance">
+								<h5>Dance</h5>
+							</div>
+							<div class="time-con">
+								<h6>Jul6 6:45pm</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-11">
+						<div class="small-7 columns">
+							<h3><strong>A QUEST OF CHARACTER</strong></h3>
+							<h4><em>Palmerston Theatre</em></h4>
+						</div>
+						<div class="small-5 columns">
+							<div class="g-box-kids">
+								<h5>Kids</h5>
+							</div>
+							<div class="time-con">
+								<h6>Jul7 11:30am</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-12">
+					<div class="small-7 columns">
+						<h3><strong>CLIMBING MOUNT</strong></h3>
+						<h4><em>Tarragon Solo Room</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-Comedy">
+							<h5>Comedy</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul6 10:00pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-16">
+					<div class="small-7 columns">
+						<h3><strong>CIRQULAR PICK-UP</strong></h3>
+						<h4><em>Tarragon Extra</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-Drama">
+							<h5>Drama</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul5 11:00pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-17">
+					<div class="small-7 columns">
+						<h3><strong>TIKVA’S ORCHESTRA</strong></h3>
+						<h4><em>Annex Theatre</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-PT">
+							<h5>Physical Theatre</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul3 10:30pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+	</div>
+</div>
+
+<!--			page 6		performances filter venues 		-->
+<div data-effeckt-page="page-6">
+	<div class="page-wrap" id="page-6">
+			<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Home</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>
+				
+            <div class="row">
+                <div class="small-12 columns">
+                       <dl class="sub-nav">
+						  
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-2">A-Z</a></dd>
+						  <dd class="active"><a href="#">Place</a></dd>
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-7">Time</a></dd>
+						   <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-8">Genre</a></dd>
+						</dl>
+                </div>
+            </div>
+		
+
+					<a href="#" class="button expand"><h6>TARRAGON MAIN</h6></a>
+
+
+		<div class="tab-back">
+			<div class="row">
+				<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-10">
+					<div class="small-7 columns">
+						<h3><strong>ARABIAN NIGHTS</strong></h3>
+						<h4><em>Tarragon Main</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-dance">
+							<h5>Dance</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul6 6:45pm</h6>
+						</div>
+					</div>
+				</a>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="small-12 large-12 columns">
+					<a href="#" class="button expand" class="button radius"><h6>PALMERSTON LIBRARY THEATRE</h6></a>
+				</div>
+			</div>
+				
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-11">
+					<div class="small-7 columns">
+						<h3><strong>A QUEST OF CHARACTER</strong></h3>
+						<h4><em>Palmerston Library</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-kids">
+							<h5>Kids</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul7 11:30am</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="small-12 large-12 columns">
+					<a href="#" class="button expand" class="button radius"><h6>TARRAGON SOLO ROOM</h6></a>
+				</div>
+			</div>
+			
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-12">
+					<div class="small-7 columns">
+						<h3><strong>CLIMBING MOUNT RUMSFELD</strong></h3>
+						<h4><em>Tarragon Solo Room</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-Comedy">
+							<h5>Comedy</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul6 10:00pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="small-12 large-12 columns">
+					<a href="#" class="button expand" class="button radius"><h6>TARRAGON THEATRE EXTRASPACE</h6></a>
+				</div>
+			</div>
+
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-16">
+					<div class="small-7 columns">
+						<h3><strong>CIRQULAR PICK-UP</strong></h3>
+						<h4><em>Tarragon Extra</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-Drama">
+							<h5>Drama</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul5 11:00pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="small-12 large-12 columns">
+					<a href="#" class="button expand" class="button radius"><h6>ANNEX THEATRE</h6></a>
+				</div>
+			</div>
+		
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-17">
+					<div class="small-7 columns">
+						<h3><strong>TIKVA’S ORCHESTRA</strong></h3>
+						<h4><em>Annex Theatre</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-PT">
+							<h5>Physical Theatre</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul3 10:30pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+	</div>
+</div>
+	  
+<!--			page 7		performances filter time 		-->
+<div data-effeckt-page="page-7">
+	<div class="page-wrap" id="page-7">
+				<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Home</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>
+				
+            <div class="row">
+                <div class="small-12 columns">
+                       <dl class="sub-nav">
+						  
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-2">A-Z</a></dd>
+						  <dd><a href="#" a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-6">Place</a></dd>
+						  <dd class="active"><a href="#">Time</a></dd>
+						   <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-8">Genre</a></dd>
+						</dl>
+                </div>
+            </div>
+		
+			<div class="row">
+				<div class="small-12">
+					<div class="title-con"><h6>July 3</h6></div>
+				</div>
+			</div>
+		
+			<div class="tab-back">
+				<div class="row">
+				<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-17">
+					<div class="small-7 columns">
+						<h3><strong>TIKVA’S ORCHESTRA</strong></h3>
+						<h4><em>Annex Theatre</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-PT">
+							<h5>Physical Theatre</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul3 10:30pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		
+		<div class="row">
+			<div class="small-12">
+				<div class="title-con"><h6>July 5</h6></div>
+			</div>
+		</div>
+		
+		<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-16">
+					<div class="small-7 columns">
+						<h3><strong>CIRQULAR PICK-UP</strong></h3>
+						<h4><em>Tarragon Extra</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-Drama">
+							<h5>Drama</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul5 11:00pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+		</div>
+
+		<div class="row">
+			<div class="small-12">
+				<div class="title-con"><h6>July 6</h6></div>
+			</div>
+		</div>
+		
+		<div class="tab-back">
+			<div class="row">
+				<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-10">
+					<div class="small-7 columns">
+						<h3><strong>ARABIAN NIGHTS</strong></h3>
+						<h4><em>Tarragon Main</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-dance">
+							<h5>Dance</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul6 6:45pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-12">
+					<div class="small-7 columns">
+						<h3><strong>CLIMBING MOUNT RUMSFELD</strong></h3>
+						<h4><em>Tarragon Solo Room</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-Comedy">
+							<h5>Comedy</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul6 10:00pm</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="small-12">
+					<div class="title-con"><h6>July 7</h6></div>
+				</div>
+			</div>
+				
+			<div class="tab-back">
+				<div class="row">
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-11">
+					<div class="small-7 columns">
+						<h3><strong>A QUEST OF CHARACTER</strong></h3>
+						<h4><em>Palmerston Library</em></h4>
+					</div>
+					<div class="small-5 columns">
+						<div class="g-box-kids">
+							<h5>Kids</h5>
+						</div>
+						<div class="time-con">
+							<h6>Jul7 11:30am</h6>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	
+	  
+<!--			page 8		performances filter genre 		-->
+<div data-effeckt-page="page-8">
+	<div class="page-wrap" id="page-8">
+				<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performances</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>
+				
+            <div class="row">
+                <div class="small-12 columns">
+                       <dl class="sub-nav">
+						  
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-2">A-Z</a></dd>
+						  <dd><a href="#" a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-6">Place</a></dd>
+						  <dd><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-bottom" data-effeckt-transition-out="slide-to-top" data-effeckt-transition-page="page-7">Time</a></dd>
+						   <dd class="active"><a href="#">Genre</a></dd>
+						</dl>
+                </div>
+            </div>
+		
+			<div class="row">
+				<div class="small-12">
+					<ul class="accordion" data-accordion>
+						  <li class="accordion-navigation">
+							<a href="#panel1a"><h3>Comedy<i class="fi-arrow-down"></i></h3></a>
+							<div id="panel1a" class="content active">
+									<div class="tab-back">
+										<div class="row">
+											<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-12">
+											<div class="small-7 columns">
+												<h3><strong>CLIMBING MOUNT RUMSFELD</strong></h3>
+												<h4><em>Tarragon Solo Room</em></h4>
+											</div>
+											<div class="small-5 columns">
+												<div class="g-box-Comedy">
+													<h5>Comedy</h5>
+												</div>
+												<div class="time-con">
+													<h6>Jul6 10:00pm</h6>
+												</div>
+											</div>
+											</a>
+										</div>
+									</div>
+							</div>
+						  </li>
+						<br>
+						  <li class="accordion-navigation">
+							<a href="#panel2a"><h3>Dance<i class="fi-arrow-down"></i></h3></a>
+							<div id="panel2a" class="content">
+								<div class="tab-back">
+									<div class="row">
+										<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-10">
+											<div class="small-7 columns">
+												<h3><strong>ARABIAN NIGHTS</strong></h3>
+												<h4><em>Tarragon Main</em></h4>
+											</div>
+											<div class="small-5 columns">
+												<div class="g-box-dance">
+													<h5>Dance</h5>
+												</div>
+												<div class="time-con">
+													<h6>Jul6 6:45pm</h6>
+												</div>
+											</div>
+										</a>
+										</div>
+									</div>
+							</div>
+						  </li>
+						<br>
+						  <li class="accordion-navigation">
+							<a href="#panel3a"><h3>Drama<i class="fi-arrow-down"></i></h3></a>
+							<div id="panel3a" class="content">
+								<div class="tab-back">
+										<div class="row">
+											<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-16">
+											<div class="small-7 columns">
+												<h3><strong>CIRQULAR PICK-UP</strong></h3>
+												<h4><em>Tarragon Extra</em></h4>
+											</div>
+											<div class="small-5 columns">
+												<div class="g-box-Drama">
+													<h5>Drama</h5>
+												</div>
+												<div class="time-con">
+													<h6>Jul5 11:00pm</h6>
+												</div>
+											</div>
+											</a>
+										</div>
+								</div>
+							</div>
+						  </li>
+						<br>
+						  <li class="accordion-navigation">
+							<a href="#panel4a"><h3>Kids<i class="fi-arrow-down"></i></h3></a>
+							<div id="panel4a" class="content">
+									<div class="tab-back">
+										<div class="row">
+											<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-11">
+											<div class="small-7 columns">
+												<h3><strong>A QUEST OF CHARACTER</strong></h3>
+												<h4><em>Palmerston Library</em></h4>
+											</div>
+											<div class="small-5 columns">
+												<div class="g-box-kids">
+													<h5>Kids</h5>
+												</div>
+												<div class="time-con">
+													<h6>Jul7 11:30am</h6>
+												</div>
+											</div>
+											</a>
+										</div>
+									</div>
+							</div>
+						  </li>
+						<br>
+							<li class="accordion-navigation">
+							<a href="#panel5a">
+								 
+								<h3>Physical Theatre<i class="fi-arrow-down"></i></h3> 
+								
+								<div class="acc-button1">
+								</div>	
+							</a>
+							<div id="panel5a" class="content">
+												<div class="tab-back">
+								<div class="row">
+									<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-17">
+										<div class="small-7 columns">
+											<h3><strong>TIKVA’S ORCHESTRA</strong></h3>
+											<h4><em>Annex Theatre</em></h4>
+										</div>
+										<div class="small-5 columns">
+											<div class="g-box-PT">
+												<h5>Physical Theatre</h5>
+											</div>
+											<div class="time-con">
+												<h6>Jul3 10:30pm</h6>
+											</div>
+										</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						  </li>
+						</ul>
+				</div>
+			</div>
+	</div>
+</div>
+	 
+<!--		page3	venues		-->
+<div data-effeckt-page="page-3" id="page-3">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+				<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Venues</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>		
+			<!--content-->
+
+			<div class="row">			
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-9">
+						<div class="small-12 columns">
+							<div class="venue-box">
+								<img style="width: 100%"; src="img/tarragon.jpg" align="middle">
+							</div>
+						</div>
+					</a>
+			</div>
+<br>
+			<div class="row">			
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-14">
+						<div class="small-12 columns">
+							<div class="venue-box">
+								<img style="width: 100%"; src="img/plt.jpg" align="middle">
+							</div>
+						</div>
+					</a>
+			</div>
+<br>	
+			<div class="row">			
+					<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-15">
+						<div class="small-12 columns">
+							<div class="venue-box">
+								<img style="width: 100%"; src="img/annex.jpg" align="middle">
+							</div>
+						</div>
+					</a>
+			</div>
+	  </div>
+</div>  
+	  
+	  
+	  
+<!--		page10	performance1	 Details		-->
+<div data-effeckt-page="page-10" id="page-10">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performance Details</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"<h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+<div class="row">
+
+				<div class="large-6 columns">
+					<h2>ARABIAN NIGHTS</h2>
+					<h3><em>by Sarah Skinner</em></h3>
+				</div>
+				<div class="large-6 columns">
+					<a class="th [radius]" href="#">
+  <img src="img/arabian_nights_.jpg">
+</a>
+				</div>
+				
+			</div>
+
+				<div class="row">
+							<div class="small-12 columns">
+								<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-9">				
+								<div class="title-con"><h6>Location: Tarragon</h6></div>
+			</div>		
+								</a>
+							</div>
+				</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<ul class="accordion" data-accordion>
+					  <li class="accordion-navigation">
+						<a href="#panel1a">Buy a Ticket<i class="fi-arrow-down"></i></a>
+						<div id="panel1a" class="content">
+						  <table>
+							  <thead>
+								<tr>
+								  <th>Type</th>
+								  <th width="150">Price</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>AT-THE-DOOR TICKETS</td>
+								  <td>$10.00</td>
+								</tr>
+							  </tbody>
+							</table>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			
+		<br>
+			<div class="row">
+
+	
+						<div class="small-6 columns">
+							<h3>Show Times</h3>
+						</div>
+						<div class="small-6 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<table>
+				  <thead>
+					<tr>
+					  <th width="250"><h4><strong>Date</strong></h4></th>
+					  <th width="100"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><h3>Thursday July 3</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>Saturday July 5</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>Monday July 7</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+					 					<tr>
+					  <td>Wednesday July 9</td>
+					  <td><em>9:15 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Thursday July 10</td>
+					  <td><em>4:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Friday July 11</td>
+					  <td><em>11:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Saturday July 12</td>
+					  <td><em>12:30 pm</em></td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+<br>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Description</h3>
+			<p>It’s the classic 1001 Nights
+presented like never before! This
+collection of ancient Arabic fairy
+tales comes to life through the art
+of belly dance. Filled with action,
+mystery and romance, this feast
+for the senses will transport you
+with enthralling music, colourful
+costuming, dramatic storytelling and
+gorgeous dance.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Cast</h3>
+			<p>Sarah Skinner, Amoura, Anh
+Luc, Balkis Catelin, Ian Crewe,
+Karyn RuDance, Kevin Fox, Lamia,
+Mentor Sejdiu, Paul Limgenco,
+Sahar, Zoe Smith</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Warnings</h3>
+			<p>Fog Machine</p>
+		</div>
+	</div>
+ <div class="row">
+		<div class="small-12 columns">
+			<h3>Share</h3>
+	 </div>
+</div>
+			<div class="row">
+				<div class="small-6 columns">
+					<ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+						<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" align="right"></a></li>
+					  <li><a href="https://twitter.com/"><img src="img/twitter.png" align="left"></a></li>
+
+					  <li><a href="https://www.pinterest.com/"><img src="img/pintrest.jpg" align="right"></a></li>
+
+					</ul>
+				</div>
+				<div class="small-6 columns"></div>
+			</div>
+	</div>
+		</div>
+
+
+	  
+<!--		page9	venue1 Details		-->
+<div data-effeckt-page="page-9" id="page-9">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Venue</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+					<div class="row">
+
+				<div class="large-4 columns">
+
+					<img src="img/vmap.jpg">
+	
+				</div>
+				<div class="large-8 columns">
+				</div>
+				
+			</div>
+		
+			<div class="row">
+
+				<div class="large-12 columns">
+
+					<h2>TARRAGON MAIN</h2>
+					<h3><em>30 Bridgman Avenue (North of Dupont, East of Bathurst)</em></h3>
+	
+				</div>
+			</div>			
+		<br>
+			<div class="row">
+	
+						<div class="small-8 columns">
+							<h3>Venue Schedule</h3>
+						</div>
+						<div class="small-4 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<div class="small-12 columns">
+				<ul class="accordion" data-accordion>
+  <li class="accordion-navigation">
+    <a href="#panel1a">Thursday July 3<i class="fi-arrow-down"></i></a>
+    <div id="panel1a" class="content active">
+      <table>
+				  <thead>
+					<tr>
+					  <th width="200"><h4><strong>Performance</strong></h4></th>
+					  <th width="150"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-9">	
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+						</a>
+					</tr>
+					<tr>
+					  <td><h3>ELVIS AND DICK</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>BARD FICTION</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel2a">Friday July 4<i class="fi-arrow-down"></i></a>
+    <div id="panel2a" class="content">
+      <table>
+				  <tbody>
+					<tr>
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>ELVIS AND DICK</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>BARD FICTION</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel3a">Saturday July 5<i class="fi-arrow-down"></i></a>
+    <div id="panel3a" class="content">
+            <table>
+				  <tbody>
+					<tr>
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>ELVIS AND DICK</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>BARD FICTION</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+</ul>
+				
+				
+				</div>
+			</div>
+	</div>
+		</div>
+	  
+	  <!--		page14	venue2 Details		-->
+<div data-effeckt-page="page-14" id="page-14">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Venue</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+					<div class="row">
+
+				<div class="large-4 columns">
+
+					<img src="img/vmap.jpg">
+	
+				</div>
+				<div class="large-8 columns">
+				</div>
+				
+			</div>
+		
+			<div class="row">
+
+				<div class="large-12 columns">
+
+					<h2>PALMERSTON LIBRARY THEATRE</h2>
+					<h3><em>560 Palmerston Avenue (North of Bloor Street)</em></h3>
+	
+				</div>
+			</div>			
+		<br>
+			<div class="row">
+	
+						<div class="small-8 columns">
+							<h3>Venue Schedule</h3>
+						</div>
+						<div class="small-4 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<div class="small-12 columns">
+				<ul class="accordion" data-accordion>
+  <li class="accordion-navigation">
+    <a href="#panel1a">Thursday July 3<i class="fi-arrow-down"></i></a>
+    <div id="panel1a" class="content active">
+      <table>
+				  <thead>
+					<tr>
+					  <th width="200"><h4><strong>Performance</strong></h4></th>
+					  <th width="150"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-9">	
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+						</a>
+					</tr>
+					<tr>
+					  <td><h3>ELVIS AND DICK</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>BARD FICTION</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel2a">Friday July 4<i class="fi-arrow-down"></i></a>
+    <div id="panel2a" class="content">
+      <table>
+				  <tbody>
+					<tr>
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>ELVIS AND DICK</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>BARD FICTION</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel3a">Satturday July 5<i class="fi-arrow-down"></i></a>
+    <div id="panel3a" class="content">
+            <table>
+				  <tbody>
+					<tr>
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>ELVIS AND DICK</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>BARD FICTION</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+</ul>
+				
+				
+				</div>
+			</div>
+	</div>
+		</div>
+	
+	    <!--		page15	venue2 Details		-->
+<div data-effeckt-page="page-15" id="page-15">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Venue</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+					<div class="row">
+
+				<div class="large-4 columns">
+
+					<img src="img/vmap.jpg">
+	
+				</div>
+				<div class="large-8 columns">
+				</div>
+				
+			</div>
+		
+			<div class="row">
+
+				<div class="large-12 columns">
+
+					<h2>ANNEX THEATRE</h2>
+					<h3><em>736 Bathurst Street (at the Randolph Centre for the Arts)</em></h3>
+	
+				</div>
+			</div>			
+		<br>
+			<div class="row">
+	
+						<div class="small-8 columns">
+							<h3>Venue Schedule</h3>
+						</div>
+						<div class="small-4 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<div class="small-12 columns">
+				<ul class="accordion" data-accordion>
+  <li class="accordion-navigation">
+    <a href="#panel1a">Thursday July 3<i class="fi-arrow-down"></i></a>
+    <div id="panel1a" class="content active">
+      <table>
+				  <thead>
+					<tr>
+					  <th width="200"><h4><strong>Performance</strong></h4></th>
+					  <th width="150"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+						<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-9">	
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+						</a>
+					</tr>
+					<tr>
+					  <td><h3>TIKVA’S ORCHESTRA</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>A QUEST OF CHARACTER</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel2a">Friday July 4<i class="fi-arrow-down"></i></a>
+    <div id="panel2a" class="content">
+      <table>
+				  <tbody>
+					<tr>
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>CIRQULAR PICK-UP</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>TIKVA’S ORCHESTRA</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel3a">Sunday July 6<i class="fi-arrow-down"></i></a>
+    <div id="panel3a" class="content">
+            <table>
+				  <tbody>
+					<tr>
+					  <td><h3>ARABIAN NIGHTS</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>CLIMBING MOUNT </h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>A QUEST OF CHARACTER</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+				  </tbody>
+		</table>
+    </div>
+  </li>
+</ul>
+				
+				
+				</div>
+			</div>
+	</div>
+		</div>
+
+<!--		page11	performance2	 Details		-->
+<div data-effeckt-page="page-11" id="page-11">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performance Details</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+<div class="row">
+
+				<div class="large-6 columns">
+					<h2>A QUEST OF CHARACTER</h2>
+					<h3><em>by Tricia Myles
+and Carolyn Williamson</em></h3>
+				</div>
+				<div class="large-6 columns">
+					<a class="th [radius]" href="#">
+  <img src="img/a_quest_of_character.web_-250x250.jpg">
+</a>
+				</div>
+				
+			</div>
+
+				<div class="row">
+							<div class="small-12 columns">
+								<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-14">				
+								<div class="title-con"><h6>Location:  Palmerston Theatre</h6></div>
+			</div>		
+								</a>
+							</div>
+				</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<ul class="accordion" data-accordion>
+					  <li class="accordion-navigation">
+						<a href="#panel1a">Buy a Ticket<i class="fi-arrow-down"></i></a>
+						<div id="panel1a" class="content">
+						  <table>
+							  <thead>
+								<tr>
+								  <th>Type</th>
+								  <th width="150">Price</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>AT-THE-DOOR TICKETS</td>
+								  <td>$10.00</td>
+								</tr>
+							  </tbody>
+							</table>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			
+		<br>
+			<div class="row">
+
+	
+						<div class="small-6 columns">
+							<h3>Show Times</h3>
+						</div>
+						<div class="small-6 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<table>
+				  <thead>
+					<tr>
+					  <th width="250"><h4><strong>Date</strong></h4></th>
+					  <th width="100"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><h3>Thursday July 3</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>Saturday July 5</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>Monday July 7</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+					 					<tr>
+					  <td>Wednesday July 9</td>
+					  <td><em>9:15 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Thursday July 10</td>
+					  <td><em>4:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Friday July 11</td>
+					  <td><em>11:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Saturday July 12</td>
+					  <td><em>12:30 pm</em></td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+<br>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Description</h3>
+			<p>When Princess Celeste and Sir
+Liam break the songalongamatron,
+Luminaria sends them on a quest.
+With the help of a couple of intrepid
+frogs and other colourful characters,
+these two will learn how to be better
+people and better friends. Will they
+find true love? Probably not. It’s
+not THAT kind of play. A characterbuilding
+musical ride of fun and
+laughter.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Cast</h3>
+			<p>Script and Music: Carolyn Williamson and Tricia Myles
+Carolyn Williamson</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Art Work</h3>
+			<p>Dave Rheaume</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Age</h3>
+			<p>4-104</p>
+		</div>
+	</div>
+ <div class="row">
+		<div class="small-12 columns">
+			<h3>Share</h3>
+	 </div>
+</div>
+			<div class="row">
+				<div class="small-6 columns">
+					<ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+						<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" align="right"></a></li>
+ <li><a href="https://twitter.com/"><img src="img/twitter.png" align="left"></a></li>
+
+					  <li><a href="https://www.pinterest.com/"><img src="img/pintrest.jpg" align="right"></a></li>
+
+					</ul>
+				</div>
+				<div class="small-6 columns"></div>
+			</div>
+	</div>
+		</div>
+
+
+	  
+
+<!--		page12	performance3	 Details		-->
+<div data-effeckt-page="page-12" id="page-12">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performance Details</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+					 <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+<div class="row">
+
+				<div class="large-6 columns">
+					<h2>CLIMBING MOUNT RUMSFELD</h2>
+					<h3><em>by Joe Hamilton
+and Carolyn Williamson</em></h3>
+				</div>
+				<div class="large-6 columns">
+					<a class="th [radius]" href="#">
+  <img src="img/climbing_mount_rumsfeld.web_-250x250.jpg">
+</a>
+				</div>
+				
+			</div>
+
+				<div class="row">
+							<div class="small-12 columns">
+								<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-9">				
+								<div class="title-con"><h6>Location:  Tarragon</h6></div>
+			</div>		
+								</a>
+							</div>
+				</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<ul class="accordion" data-accordion>
+					  <li class="accordion-navigation">
+						<a href="#panel1a">Buy a Ticket<i class="fi-arrow-down"></i></a>
+						<div id="panel1a" class="content">
+						  <table>
+							  <thead>
+								<tr>
+								  <th>Type</th>
+								  <th width="150">Price</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>AT-THE-DOOR TICKETS</td>
+								  <td>$10.00</td>
+								</tr>
+							  </tbody>
+							</table>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			
+		<br>
+			<div class="row">
+
+	
+						<div class="small-6 columns">
+							<h3>Show Times</h3>
+						</div>
+						<div class="small-6 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<table>
+				  <thead>
+					<tr>
+					  <th width="250"><h4><strong>Date</strong></h4></th>
+					  <th width="100"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><h3>Thursday July 3</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>Saturday July 5</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>Monday July 7</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+					 					<tr>
+					  <td>Wednesday July 9</td>
+					  <td><em>9:15 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Thursday July 10</td>
+					  <td><em>4:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Friday July 11</td>
+					  <td><em>11:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Saturday July 12</td>
+					  <td><em>12:30 pm</em></td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+<br>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Description</h3>
+			<p>”...there are also unknown
+unknowns”
+It is the last day of the year 2006 and
+I suddenly have to write a play. In a
+hasty search for inspiration I turn to
+comments from the US Secretary
+of Defense. I write the play. I am
+climbing Mount Rumsfeld.
+This is a monologue delivered under
+the influence of Spalding Gray</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Genre</h3>
+			<p>Comedy, Drama</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Warnings</h3>
+			<p>Mature Language</p>
+		</div>
+	</div>
+ <div class="row">
+		<div class="small-12 columns">
+			<h3>Share</h3>
+	 </div>
+</div>
+			<div class="row">
+				<div class="small-6 columns">
+					<ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+						<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" align="right"></a></li>
+ <li><a href="https://twitter.com/"><img src="img/twitter.png" align="left"></a></li>
+					  <li><a href="https://www.pinterest.com/"><img src="img/pintrest.jpg" align="right"></a></li>
+
+					</ul>
+				</div>
+				<div class="small-6 columns"></div>
+			</div>
+
+	</div>
+		</div>
+	  
+<!--		page16	performance3	 Details		-->
+<div data-effeckt-page="page-16" id="page-16">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performance Details</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"<h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+<div class="row">
+
+				<div class="large-6 columns">
+					<h2>CIRQULAR</h2>
+					<h3><em>by Michelle Urbano and Tijiki Morris</em></h3>
+				</div>
+				<div class="large-6 columns">
+					<a class="th [radius]" href="#">
+  <img src="img/climbing_mount_rumsfeld.web_-250x250.jpg">
+</a>
+				</div>
+				
+			</div>
+
+				<div class="row">
+							<div class="small-12 columns">
+								<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-9">				
+								<div class="title-con"><h6>Location:  Tarragon</h6></div>
+			</div>		
+								</a>
+							</div>
+				</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<ul class="accordion" data-accordion>
+					  <li class="accordion-navigation">
+						<a href="#panel1a">Buy a Ticket<i class="fi-arrow-down"></i></a>
+						<div id="panel1a" class="content">
+						  <table>
+							  <thead>
+								<tr>
+								  <th>Type</th>
+								  <th width="150">Price</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>AT-THE-DOOR TICKETS</td>
+								  <td>$10.00</td>
+								</tr>
+							  </tbody>
+							</table>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			
+		<br>
+			<div class="row">
+
+	
+						<div class="small-6 columns">
+							<h3>Show Times</h3>
+						</div>
+						<div class="small-6 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<table>
+				  <thead>
+					<tr>
+					  <th width="250"><h4><strong>Date</strong></h4></th>
+					  <th width="100"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><h3>Thursday July 3</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>Saturday July 5</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>Monday July 7</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+					 					<tr>
+					  <td>Wednesday July 9</td>
+					  <td><em>9:15 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Thursday July 10</td>
+					  <td><em>4:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Friday July 11</td>
+					  <td><em>11:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Saturday July 12</td>
+					  <td><em>12:30 pm</em></td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+<br>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Description</h3>
+			<p>A new puppetry piece inspired by the
+tension between biological impulses
+and the rigidity of the clock. Set
+in a world where mechanical time
+appears to govern every breath,
+the characters struggle between
+keeping their dreams alive and the
+inevitability of death.
+This story is told without formal
+language. Movement, music and
+sound carry the narrative.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Cast</h3>
+			<p> Aisha Bentham, Talia</p>
+		</div>
+	</div>
+ <div class="row">
+		<div class="small-12 columns">
+			<h3>Share</h3>
+	 </div>
+</div>
+			<div class="row">
+				<div class="small-6 columns">
+					<ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+						<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" align="right"></a></li>
+ <li><a href="https://twitter.com/"><img src="img/twitter.png" align="left"></a></li>
+					  <li><a href="https://www.pinterest.com/"><img src="img/pintrest.jpg" align="right"></a></li>
+
+					</ul>
+				</div>
+				<div class="small-6 columns"></div>
+			</div>
+	</div>
+		</div>
+
+<!--		page17	performance5	 Details		-->
+<div data-effeckt-page="page-17" id="page-17">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+					<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Performance Details</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>
+<br>		
+		
+		
+		
+			<!--content-->
+<div class="row">
+
+				<div class="large-6 columns">
+					<h2>TIKVA’S ORCHESTRA</h2>
+					<h3><em>by Alisa Walton, Ginette Mohr and Thomas Morgan
+Jones</em></h3>
+				</div>
+				<div class="large-6 columns">
+					<a class="th [radius]" href="#">
+  <img src="img/must3.jpg">
+</a>
+				</div>
+				
+			</div>
+
+				<div class="row">
+							<div class="small-12 columns">
+								<a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-15">				
+								<div class="title-con"><h6>Location:  Annex</h6></div>
+			</div>		
+								</a>
+							</div>
+				</div>
+			<div class="row">
+				<div class="small-12 columns">
+					<ul class="accordion" data-accordion>
+					  <li class="accordion-navigation">
+						<a href="#panel1a">Buy a Ticket<i class="fi-arrow-down"></i></a>
+						<div id="panel1a" class="content">
+						  <table>
+							  <thead>
+								<tr>
+								  <th>Type</th>
+								  <th width="150">Price</th>
+								</tr>
+							  </thead>
+							  <tbody>
+								<tr>
+								  <td>AT-THE-DOOR TICKETS</td>
+								  <td>$10.00</td>
+								</tr>
+							  </tbody>
+							</table>
+						</div>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			
+		<br>
+			<div class="row">
+
+	
+						<div class="small-6 columns">
+							<h3>Show Times</h3>
+						</div>
+						<div class="small-6 columns"></div>
+
+			</div>
+		<br>
+			<div class="row">
+				<table>
+				  <thead>
+					<tr>
+					  <th width="250"><h4><strong>Date</strong></h4></th>
+					  <th width="100"><h4><strong>Time</strong></h4></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td><h3>Thursday July 3</h3></td>
+					  <td><em>6:30 pm</em></td>
+					</tr>
+					<tr>
+					  <td><h3>Saturday July 5</h3></td>
+					  <td><em>1:45 pm</em></td>
+					</tr>
+					<tr>
+					  <td>Monday July 7</td>
+					  <td><em>4:30 pm</em></td>
+					</tr>
+					 					<tr>
+					  <td>Wednesday July 9</td>
+					  <td><em>9:15 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Thursday July 10</td>
+					  <td><em>4:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Friday July 11</td>
+					  <td><em>11:00 pm</em></td>
+					</tr>
+					  					<tr>
+					  <td>Saturday July 12</td>
+					  <td><em>12:30 pm</em></td>
+					</tr>
+				  </tbody>
+				</table>
+			</div>
+<br>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Description</h3>
+			<p>A Jewish cellist is determined to
+save the players in her orchestra
+during the Nazi attacks of
+Kristallnacht in WWII.
+In this new physical theatre piece,
+which includes climbing and spinning
+aerial bungee, two performers share
+a story of hope.
+Original score by Jesse Awardwinning
+composer David Mesiha.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Cast</h3>
+			<p>Alisa Walton, Thomas and Morgan Jones</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Sound Design and Composition</h3>
+			<p>David Mesiha</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<h3>Lighting Design</h3>
+			<p>Jason Hand</p>
+		</div>
+	</div>
+ <div class="row">
+		<div class="small-12 columns">
+			<h3>Share</h3>
+	 </div>
+</div>
+			<div class="row">
+				<div class="small-6 columns">
+					<ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
+						<li><a href="https://www.facebook.com/"><img src="img/facebook.jpg" align="right"></a></li>
+					   <li><a href="https://twitter.com/"><img src="img/twitter.png" align="left"></a></li>
+					  <li><a href="https://www.pinterest.com/"><img src="img/pintrest.jpg" align="right"></a></li>
+
+					</ul>
+				</div>
+				<div class="small-6 columns"></div>
+			</div>
+	</div>
+		</div>
+
+<!--		page5	raondom		-->
+<div data-effeckt-page="page-5" id="page-5">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+				<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Random</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li>
+					 <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-4"><h5>Location</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>		
+			<!--content-->
+
+		<br>
+			<div class="row">			
+
+						<div class="small-12 columns">
+							<h3>Tap below to find a random performance!</h3>
+						</div>
+	
+			</div>
+			<div class="row">			
+
+						<div class="small-12 columns">
+							<div id="spinner">
+								<img style="width: 100%"; id="image"  src="img/wheel.png" align="middle">
+							</div>
+						</div>
+			</div>
+	  </div>
+</div>  
+
+<!--		page4		location		-->
+<div data-effeckt-page="page-4" id="page-4">
+	<div class="page-wrap no-transitions" id="page-wrap">    
+				<!--		nav		-->
+				<nav class="top-bar" data-topbar role="navigation">
+				  <ul class="title-area">
+					<li class="name">
+					  <a href="#"><h1>Location</h1></a>
+					</li>
+					 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				  </ul>
+				  <section class="top-bar-section">
+				 <ul class="right">
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><h5>Home</h5></a></li>
+						  <li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-2"><h5>Performances</h5></a></li>
+								<li><a href="#" class="effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-3"><h5>Venues</h5></a></li> 
+					 <li class="has-dropdown">
+						<a href="#"><h6>Share</h6></a>
+						<ul class="dropdown">
+								  <li><a href="https://www.facebook.com/mobile">Facebook</a></li> 
+								  <li><a href="https://twitter.com/">Twitter</a></li> 
+								  <li><a href="https://www.pinterest.com/mobile/">Pintrest</a></li> 
+						</ul>
+					  </li>
+					</ul>
+				  </section>
+				</nav>		
+			<!--content-->
+
+		<br>
+			<div class="row">			
+
+				<div class="small-12 columns"><div class="title-con"><h3><span>Main Theatres</span></h3>
+							</div>
+							
+						</div>
+	
+			</div>
+			<div class="row">			
+
+						<div class="small-12 columns">
+							<div id="map-canvas">
+							</div>
+						</div>
+	
+			</div>
+<br>
+	  </div>
+</div>  
+    
+
+    
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
+         <script type="text/javascript" src="cordova.js"></script> 
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/page-transitions.js"></script>
+        <script type="text/javascript" src="js/index.js"></script> 
+        <script type="text/javascript">
+            $(document).foundation();
+            app.initialize();
+			var angle = 0;
+            $("#spinner").bind('touchstart click', function(e){
+                e.preventDefault();
+                var dir = Math.floor ( Math.random() *6 ) *60;
+                angle+=720;
+                angle += dir;
+                $('#image').css('-webkit-transform', 'rotate('+ angle +'deg)');
+            });
+        </script>
+  </body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+        <link rel="stylesheet" href="css/foundation.min.css" />
+        <link rel="stylesheet" href="css/foundation-icons.css" />
+        <link rel="stylesheet" href="css/page-transitions.css">
+        <script src="js/vendor/modernizr.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        
+        <div data-effeckt-page="page-1" id="page-1">
+            <div class="page-wrap no-transitions" id="page-wrap">
+        
+                <div class="row nav-fix">
+                </div>
+                <div id="homelogo">
+                    <img src="img/FestivalLogo.png">
+                </div>
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <a href="#" class="button radius expand effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-2">BREW-LETTE</a>
+                        
+                        <a href="#" class="button radius expand effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-3">BREWERS</a>
+                        
+                        <a href="#" class="button radius expand effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-4">BEERS</a>
+                        
+                        <a href="#" class="button radius expand effeckt-page-transition-button" data-effeckt-transition-in="slide-from-right" data-effeckt-transition-out="slide-to-left" data-effeckt-transition-page="page-5">FESTIVAL INFO</a>
+                        
+                        <div id="sponsor">
+                            <img src="img/sponsors.png">
+                        </div>
+                        <div id="brands">
+                            <img src="img/brands.png">
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        
+        <div data-effeckt-page="page-2">
+            <div class="page-wrap" id="page-2">
+                <div class="row">
+                    <div class="small-12 columns bar">
+                        <a href="#" class="button tiny radius left item effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><i class="fi-arrow-left"></i> Home</a>
+                        <h3 class="text-center">Brew-Lette</h3>
+                    </div>
+                    <div class="small-12 columns text-space">
+                        <h1><strong>BREW-LETTE!</strong></h1>
+                <h2>Spin for a random brewer</h2>
+
+            <div id="spinner">
+                <img id="image" src="img/brew-lette.png">
+                <img id="arrow" src="img/arrow.png">
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div data-effeckt-page="page-3">
+            <div class="page-wrap" id="page-3">
+                <div class="row">
+                    <div class="small-12 columns bar">
+                        <a href="#" class="button tiny radius left item effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><i class="fi-arrow-left"></i> Home</a>
+                        <h3 class="text-center">Brewers</h3>
+                    </div>
+                    <div class="small-12 columns text-space margin">
+                        <ul class="accordion" data-accordion>
+  <li class="accordion-navigation">
+    <a href="#panel1a"><img src="img/rickards.png"></a>
+    <div id="panel1a" class="content">
+        <img src="img/rickardsmap.PNG">
+        <div class="padding4"></div>
+        <p>Beverages offered by Rickard's:</p>
+            <ul>
+        
+                <li>Rickard’s white (ale, 5.4%)</li>
+                <li>Rickard’s blonde (pilsner, 5%)</li>
+                <li>Rickard’s red (ale, 5.2%)</li>
+                <li>Rickard’s dark (porter, 4.8%)</li>
+                
+                
+                <br>
+        <p>Learn more at their website:<br><a href="http://www.rickards.ca">Rickard's</a></p>
+        
+        </ul></div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel2a"><div class="padding1"></div><img src="img/millstreet.png"><div class="padding1"></div>
+      </a>
+    <div id="panel2a" class="content">
+        <img src="img/millstreetmap.PNG">
+        <div class="padding4"></div>
+        <p>Beverages offered by Mill Street:</p>
+            <ul>
+        
+                <li>Original organic lager (4.2%)</li>
+                <li>100th Meridian Amber Lager (5%)</li>
+                <li>Tankhouse Ale (4.2%)</li>
+                <li>Cobblestone Stout (4.2%)</li>
+                <li>Stock Ale (5.0%)</li>
+        
+                
+                <br>
+        <p>Learn more at their website:<br><a href="http://www.millerlite.com">Miller Lite</a></p>
+            </ul></div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel3a"><div class="padding2"></div><img src="img/corona.png"><div class="padding2"></div></a>
+    <div id="panel3a" class="content">
+        <img src="img/coronamap.PNG">
+        <div class="padding4"></div>
+        <p>Beverages offered by Corona:</p>
+            <ul>
+        
+                <li>Corona Extra (lager, 4.6%)</li>
+                
+                <br>
+        <p>Learn more at their website:<br><a href="http://www.corona.com">Corona</a></p>
+            </ul></div>
+  </li>
+    <li class="accordion-navigation">
+    <a href="#panel4a"><div class="padding2"></div><img src="img/millerlite.png"><div class="padding2"></div></a>
+    <div id="panel4a" class="content">
+        <img src="img/millerlitemap.PNG">
+        <div class="padding4"></div>
+        <p>Beverages offered by Miller Lite:</p>
+            <ul>
+        
+                <li>Miller Lite (lager, 4.2%)</li>
+                
+                <br>
+        <p>Learn more at their website:<br><a href="http://www.millerlite.com">Miller Lite</a></p>
+        
+            </ul></div>
+  </li>
+    <li class="accordion-navigation">
+    <a href="#panel5a"><img src="img/coorslight.png"></a>
+    <div id="panel5a" class="content">
+        <img src="img/coorslightmap.PNG">
+        <div class="padding4"></div>
+        <p>Beverages offered by Coors Light:</p>
+            <ul>
+        
+                <li>Coors Light (lager, 4.2%)</li>
+                
+                <br>
+        <p>Learn more at their website:<br><a href="http://www.coorslight.com">Coors Light</a></p>
+        
+            </ul></div>
+  </li>
+    <li class="accordion-navigation">
+    <a href="#panel6a"><div class="padding3"></div><img src="img/budweiser.png"><div class="padding3"></div></a>
+    <div id="panel6a" class="content">
+        <img src="img/budweisermap.PNG">
+        <div class="padding4"></div>
+        <p>Beverages offered by Budweiser:</p>
+            <ul>
+        
+                <li>Budweiser (lager, 5%)</li>
+                <li>Bud Light (lager, 4.2%)</li>
+        
+            </ul>
+        <br>
+        <p>Learn more at their website:<br><a href="http://www.budweiser.com">Budweiser</a></p>
+        </div>
+  </li>
+</ul>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div data-effeckt-page="page-4">
+            <div class="page-wrap" id="page-4">
+                <div class="row">
+                    <div class="small-12 columns bar">
+                        <a href="#" class="button tiny radius left item effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><i class="fi-arrow-left"></i> Home</a>
+                        <h3 class="text-center">Beers</h3>
+                    </div>
+                    <div class="small-12 columns text-space">
+                        <ul class="accordion" data-accordion style="color:#b62425">
+                              <li class="accordion-navigation beer" style="color:#000; background:rgb(0,0,0,0)">
+                                <a href="#panel1b"><strong>LAGERS AND PILSNERS</strong></a>
+                                <div id="panel1b" class="content">
+                                    <p>Lagers are fermented and conditioned at low temperatures. They have well attenuated body and noble hop bitterness.</p>
+                                    <p>If you like lagers, why not try:</p>
+                                    <ul>
+        
+                                        <li>Mill St Original Organic</li>
+                                        <li>100th Meridian</li>
+                                        <li>Corona Extra</li>
+                                        <li>Miller Lite</li>
+                                        <li>Coors Light</li>
+                                        <li>Budweiser</li>
+                                        <li>Bud Light</li>
+                                    </ul>
+                                  </div>
+                              </li>
+                              <li class="accordion-navigation beer" style="color:#000">
+                                <a href="#panel2b"><strong>ALES</strong></a>
+                                <div id="panel2b" class="content">
+                                    <p></p>
+                                    <p>If you like ales, why not try:</p>
+                                    <ul>
+        
+                                        <li>Rickard’s White</li>
+                                        <li>Rickard’s Red</li>
+                                        <li>Mill St Tankhouse Ale</li>
+                                        <li>Stock Ale</li>
+                                    </ul>
+                                </div>
+                              </li>
+                              <li class="accordion-navigation beer" style="color:#000">
+                                <a href="#panel3b"><strong>STOUTS</strong></a>
+                                <div id="panel3b" class="content">
+                                    <p></p>
+                                    <p>If you like stouts, why not try:</p>
+                                    <ul>
+        
+                                        <li>Mill St Cobblestone Stout.</li>
+                                    </ul>
+                                </div>
+                              </li>
+                              <li class="accordion-navigation beer" style="color:#000">
+                                <a href="#panel4b"><strong>PORTERS</strong></a>
+                                <div id="panel4b" class="content">
+                                    <p></p>
+                                    <p>If you like porters, why not try:</p>
+                                    <ul>
+        
+                                        <li>Rickard’s Dark.</li>
+                                    </ul>
+                                  </div>
+                              </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div data-effeckt-page="page-5">
+            <div class="page-wrap" id="page-5">
+                <div class="row">
+                    <div class="small-12 columns bar">
+                        <a href="#" class="button tiny radius left item effeckt-page-transition-button" data-effeckt-transition-in="slide-from-left" data-effeckt-transition-out="slide-to-right" data-effeckt-transition-page="page-1"><i class="fi-arrow-left"></i> Home</a>
+                        <h3 class="text-center">Festival Info</h3>
+                    </div>
+                    <div class="small-12 columns text-space">
+                        <img src="img/exmap.png">
+                        <div class="padding4"></div>
+                        <p>Date: July 24 &#45; 26 2015<br>Bandshell Park, Exhibition Place<br>Open 4&#58;30PM to 11&#58;00PM</p>
+                        <p>Check out more info at our site <br><a href="http://www.beerfestival.ca">Beer Festival</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <script type="text/javascript" src="cordova.js"></script> -->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/page-transitions.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            $(document).foundation();
+            //app.initialize();
+            var angle = 0;
+            $("#spinner").bind('touchstart click', function(e){
+                e.preventDefault();
+                var dir = Math.floor ( Math.random() *6 ) *60;
+                angle+=720;
+                angle += dir;
+                $('#image').css('-webkit-transform', 'rotate('+ angle +'deg)');
+            });
+        </script>
+    </body>
+</html>
